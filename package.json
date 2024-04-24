@@ -1,5 +1,8 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
+    "name": "use-disable-events",
+    "author": "zhiguozhan",
+    "module": "dist/use-disable-events.esm.js",
     "license": "MIT",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
@@ -25,19 +28,6 @@
             "pre-commit": "tsdx lint"
         }
     },
-    "name": "element-events-disable",
-    "author": "zhiguozhan",
-    "module": "dist/element-events-disable.esm.js",
-    "size-limit": [
-        {
-            "path": "dist/element-events-disable.cjs.production.min.js",
-            "limit": "10 KB"
-        },
-        {
-            "path": "dist/element-events-disable.esm.js",
-            "limit": "10 KB"
-        }
-    ],
     "devDependencies": {
         "@types/react": "^18.2.79"
     }
